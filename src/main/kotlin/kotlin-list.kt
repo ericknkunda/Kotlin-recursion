@@ -21,13 +21,14 @@ fun main(args:Array<String>){
 //    loop by for in
     println()
     for(element in listOfIntegers){
-        println("Looped by for each: "+element)
+        println("Looped by for each: $element")
     }
 
 //    looped by indexes
     println()
     for(counter in listOfIntegers.indices){
-        println("Looped by each index: "+listOfIntegers[counter])
+        println("Looped by each index: ${listOfIntegers.elementAt(counter)}")
+//        or  println("Looped by each index: "+listOfIntegers[counter])
     }
 
 //    use foreach higher-order function
