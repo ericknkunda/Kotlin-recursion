@@ -1,10 +1,10 @@
+import kotlin.*;
 public class compare_with_kotlin {
     public  static  void main(String[] args){
-        System.out.println("i am java");
+        System.out.println("I am java");
         int a =10;
-//        System.out.println("")
-//        String trooth =if (a<10){
-//            "Wow ";
-//        }
+        kotlin_cons_compare consObj =new kotlin_cons_compare("Eric", 20);
+        System.out.println("Names: "+consObj.paramNames);
+        System.out.println("Ages: "+ consObj.paramAges);
     }
 }
